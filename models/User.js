@@ -1,4 +1,5 @@
 var mongoose = require("mongoose");
+const MONGODB_URI = 'mongodb://heroku_pjsfcxhz:drv9didd17l1nfe5u67hp81e8o@ds157895.mlab.com:57895/heroku_pjsfcxhz';
 
 var Schema = mongoose.Schema;
 
@@ -40,3 +41,4 @@ var UserSchema = new Schema({
 var User = mongoose.model("User", UserSchema);
 
 module.exports = User;
+module.exports = MONGODB_URI;
