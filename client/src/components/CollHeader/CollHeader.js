@@ -11,7 +11,7 @@ export default class CollHeader extends Component {
 			<div>
 				
 
-		        <Tabs className='tab z-depth-1 center-align deep-orange accent-2'>
+		        <Tabs className='tab z-depth-1 center-align yellow accent-2'>
 						<Tab title="Log In" active>
 							<br />
 							<LogUserIn benchMarkCreated={this.props.benchMarkCreated} />

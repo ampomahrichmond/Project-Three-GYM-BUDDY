@@ -8,15 +8,16 @@ import * as firebase from 'firebase';
 
 
 var config = {
-    apiKey: "AIzaSyDhvVfvQFFykgd_vms-ortZcKTBm1PjAuU",
-    authDomain: "react-gym-ae92c.firebaseapp.com",
-    databaseURL: "https://react-gym-ae92c.firebaseio.com",
-    projectId: "react-gym-ae92c",
-    storageBucket: "",
-    messagingSenderId: "946508433089"
-  };
+  apiKey: "AIzaSyCtj4Tw-NhWnw2j28JFRwKl2PHHEVakmGo",
+  authDomain: "react-gym-app.firebaseapp.com",
+  databaseURL: "https://react-gym-app.firebaseio.com",
+  projectId: "react-gym-app",
+  storageBucket: "",
+  messagingSenderId: "973333600791"
+};
   
 firebase.initializeApp(config);
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

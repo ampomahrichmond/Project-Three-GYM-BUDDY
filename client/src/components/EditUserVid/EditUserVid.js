@@ -73,7 +73,7 @@ export default class EditUserVid extends Component {
 		return (
 			<div>
 
-				<Tabs className='tab-demo z-depth-1 center-align tabPadding deep-orange accent-2'>
+				<Tabs className='tab-demo z-depth-1 center-align tabPadding yellow accent-2'>
 
 						<Tab title="Create Sessions" >
 							<br />

@@ -68,6 +68,7 @@ export default class Chat extends Component {
 				<div className='Chat card-panel grey lighten-5 z-depth-3'>
 					<div className="row" id="chatPanel">
 						<div className="col m12">
+						<span class="card-title">Chat with Buddy</span>
 							<ul>
 								<ChatList messages={this.state.messages} />
 							</ul>
@@ -88,7 +89,7 @@ export default class Chat extends Component {
 						/> 
 						
 
-						<button onClick={this.handleSubmit} className='waves-effect waves-light btn col m3 offset-m1 deep-orange accent-2'>
+						<button onClick={this.handleSubmit} className='waves-effect waves-light btn col m3 offset-m1 yellow accent-2'>
 							<i className="large material-icons">send</i>
 						</button> 
 					</div>

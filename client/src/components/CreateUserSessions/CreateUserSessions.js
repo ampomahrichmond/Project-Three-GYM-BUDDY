@@ -97,7 +97,7 @@ export default class CreateUserSessions extends Component {
 							/>
 						</Row>
 						<Row>
-							<a className="waves-effect waves-light btn deep-orange accent-2" 
+							<a className="waves-effect waves-light btn yellow accent-2" 
 								onClick={this.handleFormSubmit}
 							>
 								Create Session
