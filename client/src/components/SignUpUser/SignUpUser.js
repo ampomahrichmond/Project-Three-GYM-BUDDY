@@ -140,7 +140,7 @@ export default class SignUpUser extends Component {
       <div>
         <Row>
           <Input 
-            placeholder="John Doe" 
+            placeholder="Juju The Cat" 
             s={12} label="User Name" 
             onChange={this.handleInputChange} 
             name="username"
@@ -149,7 +149,7 @@ export default class SignUpUser extends Component {
         <Row>
           <Input 
             type="email" 
-            placeholder="JohnDoe@email.com" 
+            placeholder="jujudacat@email.com" 
             label="Email" 
             s={6} 
             onChange={this.handleInputChange} 

@@ -18,13 +18,13 @@ export default class UserStats extends Component {
 
 		let obj = this.props.benchmark;
     	var benchmarkObj = {
-    		"Issabelle": obj.issabelle,
+    		"MMA": obj.MMA,
     		"10k Run": obj.Tenk_run,
     		"5k Run": obj.Fivek_run,
     		"3k Run": obj.Threek_run,
     		"Mile Run": obj.mile_run,
-    		"Cindy": obj.cindy,
-    		"Fran": obj.fran,
+    		"power_lifting": obj.power_lifting,
+    		"sprinting": obj.sprinting,
     		"Deadlift": obj.deadlift,
     		"Shoulder Press": obj.shoulder_press,
     		"Bench": obj.bench,
