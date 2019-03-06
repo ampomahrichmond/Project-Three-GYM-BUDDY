@@ -8,8 +8,8 @@ export default class Foot extends Component {
 	          <div className="container">
 	            <div className="row">
 	              <div className="col l6 s12">
-	                <h5 className="black-text">About ConnectFit</h5>
-	                <p className="black-text text-lighten-4">Set goals, track your progress and interact with your peers! ConnectFit turns your local gym into its own social network.</p>
+	                <h5 className="black-text">About Gym Buddy</h5>
+	                <p className="black-text text-lighten-4">Set goals,track your progress and interact with your peers! Gym Buddy turns your local gym into its own social network.</p>
 	              </div>
 	              <div className="col l4 offset-l2 s12">
 	                <h5 className="black-text">Developer</h5>
@@ -19,7 +19,7 @@ export default class Foot extends Component {
 	              </div>
 	            </div>
 	          </div>
-	          <div className="footer-copyright yellow">
+	          <div className="footer-copyright black-text text-lighten-4 yellow accent-2">
 	            <div className="container">
 	            © 2019
 	            <a className="black-text text-lighten-4 right" href="#!"></a>

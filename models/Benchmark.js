@@ -1,5 +1,5 @@
-// var mongoose = require("mongoose");
-const MONGODB_URI = 'mongodb://heroku_pjsfcxhz:drv9didd17l1nfe5u67hp81e8o@ds157895.mlab.com:57895/heroku_pjsfcxhz';
+var mongoose = require("mongoose");
+// const MONGODB_URI = 'mongodb://heroku_pjsfcxhz:drv9didd17l1nfe5u67hp81e8o@ds157895.mlab.com:57895/heroku_pjsfcxhz';
 
 var Schema = mongoose.Schema;
 
@@ -20,11 +20,11 @@ var BenchmarkSchema = new Schema({
 		type: String,
 		default: "N/A"
 	},
-	fran: {
+	sprinting: {
 		type: String,
 		default: "N/A"
 	},
-	cindy: {
+	power_lifting: {
 		type: String,
 		default: "N/A"
 	},
@@ -32,25 +32,24 @@ var BenchmarkSchema = new Schema({
 		type: String,
 		default: "N/A"
 	},
-	Threek_run: {
+	ThreeK_run: {
 		type: String,
 		default: "N/A"
 	},
-	Fivek_run: {
+	FiveK_run: {
 		type: String,
 		default: "N/A"
 	},
-	Tenk_run: {
+	TenK_run: {
 		type: String,
 		default: "N/A"
 	},
-	issabelle: {
+	 MMA:{
 		type: String,
 		default: "N/A"
 	}
 });
-
 var Benchmark = mongoose.model("Benchmark", BenchmarkSchema);
 
 module.exports = Benchmark;
-module.exports = MONGODB_URI;
+// module.exports = MONGODB_URI;

@@ -24,7 +24,7 @@ app.use(routes);
 mongoose.Promise = global.Promise;
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/gymworkoutlist",
+  process.env.MONGODB_URI || "mongodb://localhost/gym_all_activity",
   {
     useMongoClient: true
   }
