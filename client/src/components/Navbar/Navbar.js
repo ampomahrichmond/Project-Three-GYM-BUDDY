@@ -16,8 +16,9 @@ export default class Nav extends Component {
     this.state = {
       searchTerm: "",
       logo: (
-				<img src="logo.png"/>
-				// "https://vectr.com/tmp/dpIPgOC1i/cOqWCgrNQ.svg?width=194.55166666666668&height=64&select=b2elbbWCVx,b4RoGEFjr,ansv38pR3&source=selection" />
+        // <img src="./logo.png"/>
+        <img src={require('./logo.png') } height="65" width="200"alt=''/>
+				// // "https://vectr.com/tmp/dpIPgOC1i/cOqWCgrNQ.svg?width=194.55166666666668&height=64&select=b2elbbWCVx,b4RoGEFjr,ansv38pR3&source=selection" />
       )
     };
   }
