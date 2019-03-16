@@ -72,7 +72,7 @@ export default class Home extends Component {
 				<Row>
 					<div className="col s1 offset-11">
 						<div className="fixed-action-btn">
-							<a href={this.state.editing ? '/home' : '/edit'} className="btn-floating btn-large yellow accent-2"> 
+							<a href={this.state.editing ? '/home' : '/edit'} className="btn-floating btn-large yellow accent-2 black-text "> 
 								<i className="large material-icons">{(this.state.editing ? "lock_open" : "lock")}</i>
 							</a>
 						</div>
