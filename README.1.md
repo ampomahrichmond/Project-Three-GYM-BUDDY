@@ -1,6 +1,6 @@
 r# Create React Express App
 
-## About This Boilerplate
+## About Project-Three-GYM-BUDDY
 
 This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
 
